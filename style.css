@@ -1,0 +1,54 @@
+body {
+  color: white;
+  background-color: #333333;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.clicker1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 100;
+  display: inline-block;
+  top: 233px;
+  left: 140px;
+}
+
+.error {
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  top: 0;
+  z-index: 200;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .image-container {
+    width: 400px;
+    height: 400px;
+  }
+  .clicker1 {
+    top: 150px;
+    left: 87px;
+  }
+}
+
+input,
+#fwd,
+#back,
+#send {
+  padding: 0.5rem;
+}
