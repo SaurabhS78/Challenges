@@ -44,7 +44,7 @@ img {
     top: 150px;
     left: 87px;
   }
-  img {
+  .error > img {
     height: 50vh;
     width: auto;
     transform: translateX(-40%);
