@@ -44,10 +44,13 @@ img {
     top: 150px;
     left: 87px;
   }
+  .error{
+    overflow: hidden;
+  }
   .error > img {
-    height: 50vh;
+    height: 80vh;
     width: auto;
-    transform: translateX(-40%);
+    transform: translateX(-30%);
   }
 }
 
